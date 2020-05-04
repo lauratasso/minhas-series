@@ -14,7 +14,7 @@
 #buttonNew {
     font-size: 22px;
     margin-bottom: 10px;
-    margin-left: 89%;
+    float: right;
 }
 
 thead {
@@ -29,4 +29,8 @@ tbody tr {
 
 #linkInfo, #linkEdit{
     margin-right: 10px;
+}
+
+#btnSalvar {
+    width: 200px;
 }

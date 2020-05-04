@@ -40,7 +40,7 @@ return (
                 <label htmlFor="name">Nome</label>
                 <input type="text" value={name} onChange={onChange} className="form-control" id="name" placeholder="Nome do Gênero" />
             </div>
-            <button type='button' className='btn btn-primary' onClick={saveGenre}>Salvar</button>
+            <button type='button' id='btnSalvar' className='btn btn-primary' onClick={saveGenre}>Salvar</button>
 
         </form>
     </div>

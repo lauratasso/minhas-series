@@ -78,7 +78,7 @@ const NovaSerie = () => {
         </div>
         <br></br>
 
-        <button type='button' style={{width: '200px'}} className='btn btn-primary' onClick={saveSerie}>Salvar</button>
+        <button type='button' id='btnSalvar' className='btn btn-primary' onClick={saveSerie}>Salvar</button>
 
       </form>
     </div>

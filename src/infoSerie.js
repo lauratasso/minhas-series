@@ -139,8 +139,8 @@ const InfoSerie = ({ match }) => {
               <input className='form-check-input' type='radio' checked={form.status === 'ASSISTINDO'} name='status' id='assistindo' value='ASSISTINDO' onChange={statusSelect('ASSISTINDO')}/>
               <label className='form-check-label' htmlFor='assistindo'> Assistindo no momento</label>
             </div>
-
-            <button type='button' className='btn btn-primary' onClick={saveSerie}>Salvar</button>
+            <br></br>
+            <button type='button' id='btnSalvar' className='btn btn-primary' onClick={saveSerie}>Salvar</button>
           <button className='btn btn-danger' onClick={() => setMode('INFO')} style={{'margin-left': '15px'}} >Cancelar Edição</button>
 
         </form>
